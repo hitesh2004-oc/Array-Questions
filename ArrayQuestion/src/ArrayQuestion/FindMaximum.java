@@ -15,7 +15,7 @@ public class FindMaximum {
 	      }
 	      int largest=arr[0];
 	      for(int i=0;i<n;i++) {
-	    	  
+	    //	  largest = Math.max(largest, arr[i]);
 	    	  if(arr[i]>largest) {
 	    		  largest=arr[i];
 	    	  }
