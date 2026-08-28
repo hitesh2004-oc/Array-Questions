@@ -7,7 +7,7 @@ public class ReverseArray {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
 		int arr[] = new int[n];
-		
+		// Arrays.sort(arr); // use for sort the array
 		System.out.println("Enter " + n + " Elements :-");
 		
 		for(int i = 0; i < n; i++) {
