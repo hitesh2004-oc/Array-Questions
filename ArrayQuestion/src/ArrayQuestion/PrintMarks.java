@@ -12,7 +12,6 @@ public class PrintMarks {
 	      for(int i=0; i<n;i++) {
 	    	  arr[i] = sc.nextInt();
 	      }
-	      
 	      for(int i=0; i<n;i++) {
 	    	  //Main Logic(Approach)//
 	    	  if(arr[i]<35) {
